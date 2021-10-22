@@ -1,6 +1,6 @@
 # Clickhouse Cluster
 
-Clickhouse cluster with 2 shards and 2 replicas built with docker-compose.
+Clickhouse cluster with 3 shards and 2 replicas built with docker-compose.
 
 ## Run
 
@@ -19,6 +19,8 @@ Containers will be available in docker network `172.23.0.0/24`
 | clickhouse02 | 172.23.0.12
 | clickhouse03 | 172.23.0.13
 | clickhouse04 | 172.23.0.14
+| clickhouse05 | 172.23.0.15
+| clickhouse06 | 172.23.0.16
 
 ## Profiles
 
